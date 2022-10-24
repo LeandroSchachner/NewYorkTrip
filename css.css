@@ -39,6 +39,8 @@ video {
     z-index: 2;
 }
 .audio {
+    padding-top: 15px;
+    left: 15px;
     position: relative;
     z-index: 2;
 }

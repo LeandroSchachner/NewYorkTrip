@@ -42,7 +42,7 @@ const date = futureDate.getDate();
 const weekday = semana[futureDate.getDay()];
 
 
-giveaway.textContent = `La espera termina el ${weekday}, ${date} de ${month} de ${year} a las ${hours}:${minutes}am`;
+giveaway.textContent = `La espera termina el ${weekday}, ${date} de ${month} de ${year} a las ${hours}:${minutes}pm`;
 
 
 const futureTime = futureDate.getTime();

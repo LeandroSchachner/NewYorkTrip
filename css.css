@@ -1,0 +1,82 @@
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    color: aliceblue;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1c1c1d;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+#hero {
+    min-height: 100vh;
+}
+
+.promo {
+    padding-top: 350px;
+    font-family: 'Fugaz One', cursive;
+    color: aliceblue;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+.audio {
+    position: relative;
+    z-index: 2;
+}
+.promo h1 {
+    font-size: 6rem;
+}
+
+
+.time {
+    background-color: white;
+    color: #454558;
+    padding: 15px;
+    border-radius: 15px;
+}
+.contador {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .promo {
+      font-size: 1.5rem;
+      padding-top: 35px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .promo {
+      padding-top: 35px;
+    }
+
+    .time {
+        font-size: 1rem;
+        background-color: white;
+        color: #454558;
+        padding: 5px;
+        border-radius: 15px;
+    }
+  }  
